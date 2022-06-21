@@ -1,10 +1,13 @@
 import React from 'react';
+import { Header } from './components/Header';
+import { Resume } from './components/Resume';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App: React.FC = () => (
   <>
-    <h1>Control Financial</h1>
     <GlobalStyles />
+    <Header />
+    <Resume />
   </>
 );
 

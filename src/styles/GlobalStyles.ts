@@ -2,6 +2,8 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   :root {
+    --white: #F4EDE8;
+
     --gray-300: #312e38;
     --gray-500: #28262e;
 
@@ -21,8 +23,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: #312e38;
-    color: #F4EDE8;
+    background: var(--gray-300);
     -webkit-font-smoothing: antialiased;
   }
 
